@@ -44,9 +44,6 @@
     <!-- Enable pocket mode -->
     <bool name="config_proxiSensorWakupCheck">true</bool> 
 
-    <!-- Whether auto face unlock is enabled by default -->
-    <bool name="config_autoFaceUnlockEnabledByDefault">true</bool>
-
     <!-- Allow automatic adjusting of the screen brightness while dozing in low power state. -->
     <bool name="config_allowAutoBrightnessWhileDozing">false</bool>
 
@@ -224,22 +221,6 @@
         <item>150</item>
         <item>100</item>
     </integer-array>
-
-    <!-- The list of classes that should be added to the notification ranking pipeline.
-     See {@link com.android.server.notification.NotificationSignalExtractor}
-      If you add a new extractor to this list make sure to update
-      NotificationManagerService.handleRankingSort()-->
-    <string-array name="config_notificationSignalExtractors">
-        <item>com.android.server.notification.NotificationChannelExtractor</item>
-        <item>com.android.server.notification.NotificationAdjustmentExtractor</item>
-        <item>com.android.server.notification.ValidateNotificationPeople</item>
-        <item>com.android.server.notification.PriorityExtractor</item>
-        <item>com.android.server.notification.ZenModeExtractor</item>
-        <item>com.android.server.notification.ImportanceExtractor</item>
-        <item>com.android.server.notification.NotificationIntrusivenessExtractor</item>
-        <item>com.android.server.notification.VisibilityExtractor</item>
-        <item>com.android.server.notification.BadgeExtractor</item>
-    </string-array>
 
     <!-- Vibrator pattern for feedback about hitting a scroll barrier -->
     <integer-array name="config_scrollBarrierVibePattern">
