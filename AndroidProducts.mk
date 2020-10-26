@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/yaap_tissot.mk
+    $(LOCAL_DIR)/superior_tiffany.mk
 
 COMMON_LUNCH_CHOICES := \
-    yaap_tissot-user \
-    yaap_tissot-userdebug \
-    yaap_tissot-eng \
+    superior_tiffany-user \
+    superior_tiffany-userdebug \
+    superior_tiffany-eng \
